@@ -14,26 +14,26 @@ const Navbar = () => {
                         Categorias <i className="fa fa-cheverson down"></i>
                     </h4>
                 </div>
-                <div className='navlink'>
+                
+                <div className="navlink">
                     <ul className={MobileMenu ? "nav-links-MobileMenu" : "link f_flex capitalize"} onClick={() => setMobileMenu(false)}>
-                        {/*<ul className='link f_flex uppercase {MobileMenu ? "nav-links-MobileMenu" : "nav-links"} onClick={() => setMobileMenu(false)}'>*/}
                         <li>
                             <Link to='/'>home</Link>
                         </li>
                         <li>
-                            <Link to='/pages'>pages</Link>
+                            <Link to='/paginas'>paginas</Link>
                         </li>
                         <li>
-                            <Link to='/user'>user account</Link>
+                            <Link to='/usuario'>conta usuário</Link>
                         </li>
                         <li>
-                            <Link to='/vendor'>vendor account</Link>
+                            <Link to='/fornecedor'>conta fornecedor</Link>
                         </li>
                         <li>
-                            <Link to='/track'>track my order</Link>
+                            <Link to='/rastrear'>Rastrear</Link>
                         </li>
                         <li>
-                            <Link to='/contact'>contact</Link>
+                            <Link to='/contato'>contato</Link>
                         </li>
                     </ul>
 

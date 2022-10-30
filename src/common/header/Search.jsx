@@ -1,10 +1,17 @@
 import React from "react";
+import logo from "../assets/images/logo.png"
 
 const Search = () => {
     return (
-        <div>
-            <h1>Search</h1>
-        </div>
+        <>
+            <section>
+                <div className="container c_flex">
+                    <div className="logo width">
+                        <img src={logo} alt="" />
+                    </div>
+                </div>
+            </section>
+        </>
     )
 }
 
