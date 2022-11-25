@@ -152,7 +152,7 @@
     .close,
     .open {
       position: absolute;
-      top: 35px;
+      top: 30%;
       right: 20px;
       color: #ff014f;
       display: block;
