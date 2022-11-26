@@ -14,9 +14,9 @@ function App() {
       <Router>
         <Header/>
         <Switch>
-            <Route path="/" exact>
+            {/* <Route path="/" exact>
               <Pages />
-            </Route>
+            </Route> */}
         </Switch>
       </Router>
 
