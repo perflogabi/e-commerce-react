@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import Pages from './pages/Pages';
 
-function App() {
+export default function App() {
   return (
     <>
       
@@ -24,5 +24,3 @@ function App() {
     
   );
 }
-
-export default App;

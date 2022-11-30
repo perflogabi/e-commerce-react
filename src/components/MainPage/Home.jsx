@@ -1,7 +1,7 @@
 import React from "react"
 import { Categories } from "./Categories"
-import { SlideCard } from "./SlideCard"
-import { Slider } from "./Slider"
+import "./Home.css"
+import SliderHome from './Slider'
 
 const Home = () => {
   return (
@@ -9,11 +9,10 @@ const Home = () => {
      <section className="home">
       <div className="container d_flex">
         <Categories />
-        <Slider />
+        <SliderHome />
       </div>
      </section>
     </>
   )
 }
-
 export default Home

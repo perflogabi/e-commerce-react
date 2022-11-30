@@ -1,7 +1,7 @@
 import React from 'react'
 import { SlideCard } from './SlideCard'
 
-export const Slider = () => {
+const SliderHome = () => {
   return (
     <div>
         <section className='homeSlide contentWidth'>
@@ -12,3 +12,4 @@ export const Slider = () => {
     </div>
   )
 }
+export default SliderHome
